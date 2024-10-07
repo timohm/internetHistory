@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: beige;
-  color:black;
+    background-color: beige;
+    color: black;
 }
 
 .navbarDiv {
@@ -17,7 +17,7 @@ body {
 .titleA {
     display: flex;
     background-color: bisque;
-    padding: 10px 20px;
+    padding: 15px 30px;
     margin-top: 3px;
     border-top-left-radius: 20%;
     border-top-right-radius: 20%;
@@ -28,12 +28,18 @@ body {
     text-decoration: none;
     color: black;
     background-image: linear-gradient(#ffffff, #dddddd, #cccccc, #ffffff);
+    transition: background-image 250ms ease-in-out;
 }
 
 .titleB {
     border-left-style: solid;
 }
 
+.titleA:hover {
+    background-image: linear-gradient(#111, #fff);
+    color: white;
+    transition: background-image 250ms ease-in-out;
+}
 
 /* .titleA:hover {
     animation: navBarGradientIn;
@@ -41,8 +47,8 @@ body {
     animation-fill-mode: forwards;
 } */
 
-@keyframes navBarGradientIn {
+/* @keyframes navBarGradientIn {
     from {     background-image: linear-gradient(#bdbdbd, #ffffff);    }
 
     to {     background-image: linear-gradient(#f83a3a, #ffffff, #ffffff);    }
-}
+} */
