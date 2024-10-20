@@ -11,7 +11,7 @@ body {
 .navbarDiv {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #412222;
 }
 
 .titleA {
@@ -41,14 +41,28 @@ body {
     transition: background-image 250ms ease-in-out;
 }
 
-/* .titleA:hover {
-    animation: navBarGradientIn;
-    animation-duration: 300ms;
-    animation-fill-mode: forwards;
-} */
+.historyTitle {
+    display: flex;
+    justify-content: center;
+    margin: 3dvh 0;
+    font-size: 3rem;
+}
 
-/* @keyframes navBarGradientIn {
-    from {     background-image: linear-gradient(#bdbdbd, #ffffff);    }
+.techTitle {
+    position: relative;
+    margin: 3dvh 0;
+    font-size: 2rem;
+    left: -50%;
+}
 
-    to {     background-image: linear-gradient(#f83a3a, #ffffff, #ffffff);    }
-} */
+.techText {
+    position: relative;
+    left: -50%;
+}
+
+.techDiv {
+    float: left;
+    position: absolute;
+    text-align: left;
+    left: 50%;
+}
