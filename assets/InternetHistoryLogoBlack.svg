@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 322.6 232.94">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="1" y="200.35" width="320.6" height="6.54" rx="3.27" ry="3.27"/>
+  <rect class="cls-2" x="-98.67" y="100.67" width="205.88" height="6.54" rx="3.27" ry="3.27" transform="translate(108.21 99.67) rotate(90)"/>
+  <rect class="cls-2" x="215.39" y="100.67" width="205.88" height="6.54" rx="3.27" ry="3.27" transform="translate(422.27 -214.39) rotate(90)"/>
+  <rect class="cls-2" x="145.57" y="197.36" width="31.47" height="37.7" rx="3.27" ry="3.27" transform="translate(377.51 54.91) rotate(90)"/>
+  <rect class="cls-2" x="46.27" y="225.41" width="230.05" height="6.54" rx="3.27" ry="3.27"/>
+  <path class="cls-1" d="M129.3,36.82v56h64v-56h17v133h-17v-62h-64v62h-17V36.82h17Z"/>
+  <rect class="cls-2" x="1" y="1" width="320.6" height="6.54" rx="3.27" ry="3.27"/>
+</svg>
